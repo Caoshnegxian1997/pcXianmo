@@ -1,0 +1,9 @@
+._ul,
+._li {
+  list-style: none;
+}
+/*每个页面公共css */
+.uni-navbar--border {
+  border: none !important;
+}
+

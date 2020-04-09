@@ -1,0 +1,17 @@
+.test.data-v-a5f746e6 {
+  height: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.test ._ul.data-v-a5f746e6 {
+  overflow: auto;
+  width: 33%;
+}
+.test ._ul ._li.data-v-a5f746e6 {
+  height: 2rem;
+}
+

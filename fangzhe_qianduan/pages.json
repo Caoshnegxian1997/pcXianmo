@@ -1,0 +1,214 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "分类",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登陆",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "注册",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/install/install",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "设置",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/bill/bill",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "全部账单",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/bill/billInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "账单详情",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/transfer/transfer",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "转账记录",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/transfer/transferInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "转账详情",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "提现记录",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/withdrawal/withdrawalInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "提现详情",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "新闻",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/news/newsInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "新闻详情",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "购物车",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/index/test",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "测试",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "热销排行",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/category/ranking",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "列表",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/goodsInfo/goodsInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/classification/classInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "家具家装",
+				"app-plus": {}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"tabBar": {
+		"color": "#cccccc",
+		"selectedColor": "#f0bb53",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "新闻"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "我的"
+			}
+		]
+	}
+}

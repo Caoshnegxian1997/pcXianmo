@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"status_bar.",[1],"data-v-0041cbbd { height: var(--status-bar-height); width: 100%; }\n",],undefined,{path:"./pages/news/news.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/news/news.wxml') } }));

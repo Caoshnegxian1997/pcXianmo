@@ -1,0 +1,1 @@
+<view class="bill data-v-ecdb710a"><view class="_ul data-v-ecdb710a"><block wx:for="{{billList}}" wx:for-item="bill" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['jump',['$0'],[[['billList','',index,'id']]]]]]]}}" bindtap="__e" class="_li data-v-ecdb710a">{{bill}}</view></block></view></view>

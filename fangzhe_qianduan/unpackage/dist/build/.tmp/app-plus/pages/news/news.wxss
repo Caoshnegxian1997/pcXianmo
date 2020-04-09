@@ -1,0 +1,5 @@
+.status_bar.data-v-0041cbbd {
+  height: var(--status-bar-height);
+  width: 100%;
+}
+

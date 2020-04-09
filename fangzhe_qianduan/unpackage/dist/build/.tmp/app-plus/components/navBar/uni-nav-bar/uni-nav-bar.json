@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-status-bar": "/components/navBar/uni-status-bar/uni-status-bar",
+    "uni-icons": "/components/navBar/uni-icons/uni-icons"
+  },
+  "component": true
+}

@@ -1,0 +1,1 @@
+<view class="withdrawal data-v-c0346a8a"><view class="_ul data-v-c0346a8a"><block wx:for="{{withdrawalList}}" wx:for-item="withdrawal" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['jump',['$0'],[[['withdrawalList','',index,'id']]]]]]]}}" bindtap="__e" class="_li data-v-c0346a8a">{{withdrawal}}</view></block></view></view>

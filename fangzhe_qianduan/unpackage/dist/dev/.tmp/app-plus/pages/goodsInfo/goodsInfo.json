@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "uni-nav-bar": "/components/navBar/uni-nav-bar/uni-nav-bar"
+  }
+}

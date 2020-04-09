@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "uni-nav-bar": "/components/navBar/uni-nav-bar/uni-nav-bar"
+  }
+}

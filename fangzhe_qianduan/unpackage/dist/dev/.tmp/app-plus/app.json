@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/install/install",
+    "pages/bill/bill",
+    "pages/bill/billInfo",
+    "pages/transfer/transfer",
+    "pages/transfer/transferInfo",
+    "pages/withdrawal/withdrawal",
+    "pages/withdrawal/withdrawalInfo",
+    "pages/news/news",
+    "pages/news/newsInfo",
+    "pages/cart/cart",
+    "pages/index/test",
+    "pages/category/category",
+    "pages/category/ranking",
+    "pages/goodsInfo/goodsInfo",
+    "pages/classification/classInfo"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#f0bb53",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "company",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

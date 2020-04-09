@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "热销排行",
+  "usingComponents": {
+    "uni-nav-bar": "/components/navBar/uni-nav-bar/uni-nav-bar",
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot"
+  }
+}
